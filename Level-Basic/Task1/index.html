@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCanvas - Lukis Langitmu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-['Poppins']">
+    <nav class="fixed w-full z-50 bg-black/10 backdrop-blur-md">
+        <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="#" class="text-2xl font-['Playfair+Display'] font-bold text-white">
+                ✨ SkyCanvas
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#fitur" class="text-white hover:text-yellow-300">Kanvas</a>
+                <a href="#komunitas" class="text-white hover:text-yellow-300">Komunitas</a>
+                <a href="#studio" class="text-white hover:text-yellow-300">Studio</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="langit-dinamis min-h-screen relative overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="awan-bergerak absolute -left-20 top-20 text-8xl opacity-20">☁</div>
+            <div class="awan-bergerak absolute left-0 top-40 text-6xl opacity-30" style="animation-delay: -5s">⛅</div>
+        </div>
+        
+        <div class="container mx-auto px-6 pt-32 text-center relative z-10">
+            <h1 class="text-5xl md:text-7xl font-['Playfair+Display'] font-bold text-white mb-6">
+                Jadikan Langit Kanvas Kreasimu
+            </h1>
+            <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                Buat pola awan digital, lukis aurora virtual, dan kolaborasi dalam proyek seni langit bersama komunitas
+            </p>
+            <button class="bg-white/20 backdrop-blur-lg text-white px-8 py-3 rounded-full 
+                      hover:bg-white/30 transition-all border border-white/10">
+                Mulai Melukis →
+            </button>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white" id="fitur">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="relative h-96 bg-gray-100 rounded-3xl overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-b from-blue-200 to-purple-300">
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl">
+                            🎨
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h2 class="text-4xl font-['Playfair+Display'] font-bold mb-6">
+                        Alat Seni Futuristik
+                    </h2>
+                    <div class="space-y-6">
+                        <div class="p-6 bg-gray-50 rounded-xl">
+                            <h3 class="text-xl font-semibold mb-2">Kuas Awan Digital</h3>
+                            <p class="text-gray-600">Bentuk formasi awan dengan algoritma generatif AI</p>
+                        </div>
+                        <div class="p-6 bg-gray-50 rounded-xl">
+                            <h3 class="text-xl font-semibold mb-2">Palet Aurora</h3>
+                            <p class="text-gray-600">Rekam warna langit senja dan transfer ke kanvas digital</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50" id="komunitas">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-['Playfair+Display'] font-bold mb-6">
+                Kolaborasi Langit
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="aspect-square bg-cover rounded-xl" 
+                     style="background-image: url('images/lynley-jane-Gcp-kaRPpQc-unsplash.jpg')"></div>
+                <div class="aspect-square bg-cover rounded-xl" 
+                     style="background-image: url('images/zhen-yao-8MgGJYNg9ZQ-unsplash.jpg')"></div>
+                <div class="aspect-square bg-cover rounded-xl" 
+                     style="background-image: url('images/lightscape-LtnPejWDSAY-unsplash.jpg')"></div>
+                <div class="aspect-square bg-cover rounded-xl" 
+                     style="background-image: url('images/jake-weirick-Q_RBVFFXR_g-unsplash.jpg')"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="md:flex justify-between items-center">
+                <div class="mb-8 md:mb-0">
+                    <h4 class="text-2xl font-['Playfair+Display'] mb-4">SkyCanvas</h4>
+                    <p class="text-gray-400">Seni Langit Masa Depan</p>
+                </div>
+                <div class="space-y-2">
+                    <a href="#" class="block text-gray-400 hover:text-white">Syarat Penggunaan</a>
+                    <a href="#" class="block text-gray-400 hover:text-white">Galaksi Partner</a>
+                    <a href="#" class="block text-gray-400 hover:text-white">Dukungan</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                © 2025 SkyCanvas - Where Sky Meets Art
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
