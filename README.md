@@ -18,7 +18,7 @@ This repository serves as the main hub for all projects and tasks completed duri
 ### Level 1: Foundation
 | Task | Description | Status | Tech Stack |
 |------|-------------|--------|------------|
-| 1 | [SkyCanvas - Interactive Landing Page](.../Task1) | ✅ Completed | HTML, CSS, Tailwind |
+| 1 | [SkyCanvas - Interactive Landing Page](./Level-Basic/Task1) | ✅ Completed | HTML, CSS, Tailwind |
 | 2 | Coming Soon | ⌛ Pending | HTML, CSS, Tailwind |
 | 3 | Coming Soon | ⌛ Pending | HTML, CSS, Tailwind, JavaScript |
 
