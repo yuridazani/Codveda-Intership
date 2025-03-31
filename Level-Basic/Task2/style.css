@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Parisienne&display=swap');
+        
+.sky-gradient {
+    background: linear-gradient(135deg, #a8d0e6 0%, #e2f3f5 100%);
+}
+
+.floating {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.05);
+}
+
+.project-image img {
+    transition: transform 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #1a202c;
+    color: white;
+}
+
+.dark-mode .project-card {
+    background-color: #2d3748;
+    color: #cbd5e0;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+    background-color: #2d3748;
+    color: white;
+    border-color: #4a5568;
+}
