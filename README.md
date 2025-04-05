@@ -20,7 +20,7 @@ This repository serves as the main hub for all projects and tasks completed duri
 |------|-------------|--------|------------|
 | 1 | [SkyCanvas - Interactive Landing Page](./Level-Basic/Task1) | ✅ Completed | HTML, CSS, Tailwind |
 | 2 | [YuriDev Portfolio - Responsive Showcase](./Level-Basic/Task2) | ✅ Completed | HTML, CSS, Tailwind, CSS Grid |
-| 3 | Coming Soon | ⌛ Pending | HTML, CSS, Tailwind, JavaScript |
+| 3 |[YuriDev Portfolio - Responsive Showcase](./Level-Basic/Task3) | ✅ Completed | HTML, CSS, Tailwind, JavaScript |
 
 ## 💻 Technologies Used
 ### Core Technologies
